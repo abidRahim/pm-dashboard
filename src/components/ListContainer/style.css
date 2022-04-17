@@ -1,0 +1,44 @@
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  grid-column-gap: 20px;
+  margin: 20px;
+  overflow-x: auto;
+  grid-auto-flow: column;
+  scroll-snap-type: x proximity;
+}
+
+.list {
+  background-color: #e0e3e6;
+  padding: 16px 16px 8px 8px;
+  width: 300px;
+  height: max-content;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  width: 90%;
+  border-radius: 4px;
+  padding: 0 12px;
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #000;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 4px 0;
+  font-size: 0.8rem;
+}

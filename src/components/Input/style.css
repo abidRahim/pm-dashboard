@@ -1,0 +1,11 @@
+.input {
+  margin: 8px;
+}
+
+.input#title {
+  width: 60%;
+}
+.input#content {
+  width: 85%;
+  font-size: 1.05rem;
+}

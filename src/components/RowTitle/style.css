@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.list-title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-right: 4px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-right: 4px;
+}
+
+.icon {
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
