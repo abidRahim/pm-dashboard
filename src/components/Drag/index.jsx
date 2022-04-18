@@ -18,12 +18,7 @@ const Drag = ({ dataItem, children }) => {
   }
 
   const handleDragEnd = () => {
-    ref.current.style.outline = '';
     ref.current.style.opacity = 1;
-  }
-
-  const handleDragExit = () => {
-    ref.current.style.outline = '';
   }
 
   useEffect(() => {
@@ -37,7 +32,6 @@ const Drag = ({ dataItem, children }) => {
       onDragEnd={handleDragEnd}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
-      onDragExit={handleDragExit}
       ref={ref}
     >
       {children}
